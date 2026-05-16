@@ -1,30 +1,30 @@
-Snake is a clone of the classic game that we all used to play on our cellphones. You play this game on a simulated terminal, with a textual interface.
-Getting Started
+A snake game written in Python using the Pygame library.
+Installing
 
-Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
+Download the Python 3 installer package from the official website and install it, if not installed previously.
 
-python3 -m pip install raylib
+Run the following in the terminal to install the Pygame library
 
-After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
+pip3 install pygame
 
-python3 snake
+Running the application
 
-You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
-project folder. Select the main module inside the hunter folder and click the "run" icon.
+Download the source code from the repository and run the file just as any other Python script (.py) file.
 
-## Project Structure
----
-The project files and folders are organized as follows:
+python3 Snake\ Game.py
 
-root (project root folder) +-- snake (source code for game) +-- game (specific game classes) +-- main.py (entry point for program) +-- README.md (general info)
+The difficulty variable can be changed with the values provided in the comment to set the difficulty level.
 
+The rest of the code is properly commented and self explanatory. Tweaks can be made to change the play style or visuals of the game.
+Prerequisites
 
-## Required Technologies
----
-* Python 3.8.0
-* Raylib Python CFFI 3.7
+    Python
+    Pygame, an open source Python library for making multimedia applications
 
-## Authors
----
-* Brigs Dean Briggs-dean@outlook.com
+Author
+Brigs Dean Briggs-dean@outlook.com
 
+Acknowledgements
+
+    Pygame Documentations
+    Udemy: Python Game Development
